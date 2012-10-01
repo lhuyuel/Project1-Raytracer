@@ -1,0 +1,409 @@
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\cuda_runtime.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\host_config.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\builtin_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\device_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\driver_types.h
+S:\VS2010\VC\include\limits.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\sal.h
+s:\vs2010\vc\include\codeanalysis\sourceannotations.h
+S:\VS2010\VC\include\vadefs.h
+S:\VS2010\VC\include\stddef.h
+S:\VS2010\VC\include\crtdefs.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\surface_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\driver_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\texture_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\driver_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\vector_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\builtin_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\device_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\driver_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\surface_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\texture_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\vector_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\host_defines.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\channel_descriptor.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\driver_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\cuda_runtime_api.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\host_defines.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\builtin_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\device_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\driver_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\surface_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\texture_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\vector_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\host_defines.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\vector_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\cuda_runtime_api.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\driver_functions.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\builtin_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\device_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\driver_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\surface_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\texture_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\vector_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\host_defines.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\driver_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\host_defines.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\vector_functions.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\builtin_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\device_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\driver_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\surface_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\texture_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\vector_types.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\host_defines.h
+c:\program files\nvidia gpu computing toolkit\cuda\v4.0\include\vector_types.h
+S:\VS2010\VC\include\stdio.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\swprintf.inl
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\cuda.h
+S:\VS2010\VC\include\stdlib.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\cmath
+S:\VS2010\VC\include\yvals.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\use_ansi.h
+S:\VS2010\VC\include\math.h
+S:\VS2010\VC\include\crtdefs.h
+h:\cis565 gpu\github\project1-raytracer\src\sceneStructs.h
+h:\cis565 gpu\github\project1-raytracer\src\glm/glm.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core/_fixes.hpp
+S:\VS2010\VC\include\climits
+S:\VS2010\VC\include\cfloat
+S:\VS2010\VC\include\float.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\crtwrn.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\limits
+S:\VS2010\VC\include\ymath.h
+S:\VS2010\VC\include\cwchar
+S:\VS2010\VC\include\wchar.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\wtime.inl
+S:\VS2010\VC\include\xstddef
+S:\VS2010\VC\include\cstddef
+S:\VS2010\VC\include\cstdio
+h:\cis565 gpu\github\project1-raytracer\src\glm\core/setup.hpp
+S:\VS2010\VC\include\pmmintrin.h
+S:\VS2010\VC\include\emmintrin.h
+S:\VS2010\VC\include\xmmintrin.h
+S:\VS2010\VC\include\mmintrin.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\malloc.h
+S:\VS2010\VC\include\crtdefs.h
+h:\cis565 gpu\github\project1-raytracer\src\glm\./core/_detail.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\setup.hpp
+S:\VS2010\VC\include\cassert
+S:\VS2010\VC\include\assert.h
+S:\VS2010\VC\include\crtdefs.h
+h:\cis565 gpu\github\project1-raytracer\src\glm\./core/type.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_half.hpp
+S:\VS2010\VC\include\cstdlib
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_half.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_detail.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_float.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_half.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\setup.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_int.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\setup.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_detail.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_gentype.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_size.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_vec1.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_vec.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_gentype.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_float.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_int.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_size.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_swizzle.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_swizzle_func.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_vec1.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_vec2.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_vec.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_float.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_int.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_size.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_swizzle.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_vec2.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_vec3.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_vec.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_float.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_int.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_size.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_swizzle.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_vec3.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_vec4.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_vec.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_float.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_int.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_size.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_swizzle.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_vec4.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat2x2.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_gentype.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat2x2.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat2x3.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat2x3.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat2x4.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat2x4.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat3x2.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat3x2.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat3x3.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat3x3.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat3x4.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat3x4.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat4x2.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat4x2.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat4x3.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat4x3.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat4x4.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\type_mat4x4.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\./core/func_trigonometric.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\func_trigonometric.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_vectorize.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\./core/func_exponential.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\func_exponential.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_vectorize.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\./core/func_common.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_fixes.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\func_common.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_vectorize.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\./core/func_packing.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\func_packing.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\./core/func_geometric.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\func_geometric.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_vectorize.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\./core/func_matrix.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\func_matrix.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_vectorize.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\./core/func_vector_relational.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_detail.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\func_vector_relational.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\./core/func_integer.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\func_integer.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\_vectorize.hpp
+S:\VS2010\VC\include\intrin.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\setjmp.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\immintrin.h
+S:\VS2010\VC\include\wmmintrin.h
+S:\VS2010\VC\include\nmmintrin.h
+S:\VS2010\VC\include\smmintrin.h
+S:\VS2010\VC\include\tmmintrin.h
+S:\VS2010\VC\include\mm3dnow.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\mmintrin.h
+h:\cis565 gpu\github\project1-raytracer\src\glm\./core/func_noise.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core\func_noise.inl
+h:\cis565 gpu\github\project1-raytracer\src\glm\./core/_swizzle.hpp
+h:\cis565 gpu\github\project1-raytracer\src\cudaMat4.h
+h:\cis565 gpu\github\project1-raytracer\src\glm/glm.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core/_fixes.hpp
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\cuda_runtime.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\cuda_runtime.h
+S:\VS2010\VC\include\string
+S:\VS2010\VC\include\istream
+S:\VS2010\VC\include\ostream
+S:\VS2010\VC\include\ios
+S:\VS2010\VC\include\xlocnum
+S:\VS2010\VC\include\streambuf
+S:\VS2010\VC\include\xiosbase
+S:\VS2010\VC\include\xlocale
+S:\VS2010\VC\include\cstring
+S:\VS2010\VC\include\string.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\stdexcept
+S:\VS2010\VC\include\exception
+S:\VS2010\VC\include\eh.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\xstring
+S:\VS2010\VC\include\xmemory
+S:\VS2010\VC\include\new
+S:\VS2010\VC\include\xutility
+S:\VS2010\VC\include\utility
+S:\VS2010\VC\include\iosfwd
+S:\VS2010\VC\include\crtdbg.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\type_traits
+S:\VS2010\VC\include\xtr1common
+S:\VS2010\VC\include\xfwrap
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxtype_traits
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxtype_traits
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxtype_traits
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxtype_traits
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxtype_traits
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxtype_traits
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxtype_traits
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxtype_traits
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxtype_traits
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxtype_traits
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxtype_traits
+S:\VS2010\VC\include\typeinfo
+S:\VS2010\VC\include\xlocinfo
+S:\VS2010\VC\include\xlocinfo.h
+S:\VS2010\VC\include\ctype.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\locale.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\xdebug
+S:\VS2010\VC\include\system_error
+S:\VS2010\VC\include\cerrno
+S:\VS2010\VC\include\errno.h
+S:\VS2010\VC\include\crtdefs.h
+S:\VS2010\VC\include\share.h
+C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.0/C/common/inc\cutil_math.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\cuda_runtime.h
+S:\VS2010\VC\include\math.h
+h:\cis565 gpu\github\project1-raytracer\src\glm/glm.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core/_fixes.hpp
+h:\cis565 gpu\github\project1-raytracer\src\utilities.h
+h:\cis565 gpu\github\project1-raytracer\src\glm/glm.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core/_fixes.hpp
+S:\VS2010\VC\include\algorithm
+S:\VS2010\VC\include\memory
+S:\VS2010\VC\include\xfwrap
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\xfwrap1
+S:\VS2010\VC\include\xxshared
+S:\VS2010\VC\include\iterator
+S:\VS2010\VC\include\sstream
+S:\VS2010\VC\include\vector
+S:\VS2010\VC\include\xfunctional
+h:\cis565 gpu\github\project1-raytracer\src\cudaMat4.h
+h:\cis565 gpu\github\project1-raytracer\src\raytraceKernel.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/detail/config.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/detail/config/config.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/detail/config/simple_defines.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/detail/config/compiler.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/detail/config/device_backend.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/detail/config/host_device.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\host_defines.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/detail/config/debug.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/detail/cstdint.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/discard_block_engine.h
+S:\VS2010\VC\include\iostream
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/detail/random_core_access.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/detail/discard_block_engine.inl
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/linear_congruential_engine.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/detail/linear_congruential_engine_discard.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/detail/mod.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/detail/linear_congruential_engine.inl
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/linear_feedback_shift_engine.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/detail/linear_feedback_shift_engine_wordmask.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/detail/linear_feedback_shift_engine.inl
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/subtract_with_carry_engine.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/detail/subtract_with_carry_engine.inl
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/xor_combine_engine.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/detail/type_traits.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/detail/type_traits/has_trivial_assign.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/detail/xor_combine_engine_max.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/detail/mpl/math.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/detail/xor_combine_engine.inl
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/uniform_int_distribution.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/pair.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/detail/pair.inl
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/detail/integer_traits.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/detail/uniform_int_distribution.inl
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/uniform_real_distribution.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/detail/uniform_real_distribution.inl
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/normal_distribution.h
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\thrust/random/detail/normal_distribution.inl
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include\cuda.h
+h:\cis565 gpu\github\project1-raytracer\src\sceneStructs.h
+C:/ProgramData/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.0/C/common/inc\cutil_math.h
+h:\cis565 gpu\github\project1-raytracer\src\intersections.h
+h:\cis565 gpu\github\project1-raytracer\src\sceneStructs.h
+h:\cis565 gpu\github\project1-raytracer\src\cudaMat4.h
+h:\cis565 gpu\github\project1-raytracer\src\glm/glm.hpp
+h:\cis565 gpu\github\project1-raytracer\src\glm\core/_fixes.hpp
+h:\cis565 gpu\github\project1-raytracer\src\utilities.h
+h:\cis565 gpu\github\project1-raytracer\src\interactions.h
+h:\cis565 gpu\github\project1-raytracer\src\intersections.h
