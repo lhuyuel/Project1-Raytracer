@@ -71,8 +71,101 @@ __host__ __device__ glm::vec3 getSignOfRay(ray r){
 //TODO: IMPLEMENT THIS FUNCTION
 //Cube intersection test, return -1 if no intersection, otherwise, distance to intersection
 __host__ __device__  float boxIntersectionTest(staticGeom box, ray r, glm::vec3& intersectionPoint, glm::vec3& normal){
+	glm::vec3 botbcklft = glm::vec3(-0.5, -0.5, -0.5);//bottom back left
+	glm::vec3 topfrtrt = glm::vec3(0.5, 0.5, 0.5);//top front right
 
-    return -1;
+	glm::vec3 ro = multiplyMV(box.inverseTransform, glm::vec4(r.origin,1.0f));
+	glm::vec3 rd = glm::normalize(multiplyMV(box.inverseTransform, glm::vec4(r.direction,0.0f)));
+	ray rt; rt.origin = ro; rt.direction = rd;
+    //Ray-Box Intersection: http://www.siggraph.org/education/materials/HyperGraph/raytrace/rtinter3.htm
+	float t = 0;
+	float Tnear = -10000.0;//-infinity		
+	float Tfar = 10000.0;//infinity
+
+	if(rd.x == 0)
+	{//parallel to the X planes
+		if(ro.x < botbcklft.x || ro.x > topfrtrt.x)	return -1;
+	}
+	else
+	{
+		float T1 = (botbcklft.x - ro.x) / rd.x;
+		float T2 = (topfrtrt.x - ro.x) / rd.x;
+		float tmp;
+		if(T1 > T2)
+		{//swap (T1, T2) /* since T1 intersection with near plane */
+			tmp =T1;
+			T1 = T2;
+			T2 = tmp;
+		}
+		if(T1 > Tnear)	Tnear = T1;
+		if(T2 < Tfar)	Tfar = T2;
+		if(Tnear > Tfar)	return -1;
+		if(Tfar < 0)	return -1; 
+	}
+
+	if(rd.y == 0)
+	{//parallel to the Y planes
+		if(ro.y < botbcklft.y || ro.y > topfrtrt.y)	return -1;
+	}
+	else
+	{
+		float T1 = (botbcklft.y - ro.y) / rd.y;
+		float T2 = (topfrtrt.y - ro.y) / rd.y;
+		float tmp;
+		if(T1 > T2)
+		{//swap (T1, T2) /* since T1 intersection with near plane */
+			tmp =T1;
+			T1 = T2;
+			T2 = tmp;
+		}
+		if(T1 > Tnear)	Tnear = T1;
+		if(T2 < Tfar)	Tfar = T2;
+		if(Tnear > Tfar)	return -1;
+		if(Tfar < 0)	return -1; 
+	}
+
+	if(rd.z == 0)
+	{//parallel to the Z planes
+		if(ro.z < botbcklft.z || ro.z > topfrtrt.z)	return -1;
+	}
+	else
+	{
+		float T1 = (botbcklft.z - ro.z) / rd.z;
+		float T2 = (topfrtrt.z - ro.z) / rd.z;
+		float tmp;
+		if(T1 > T2)
+		{//swap (T1, T2) /* since T1 intersection with near plane */
+			tmp =T1;
+			T1 = T2;
+			T2 = tmp;
+		}
+		if(T1 > Tnear)	Tnear = T1;
+		if(T2 < Tfar)	Tfar = T2;
+		if(Tnear > Tfar)	return -1;
+		if(Tfar < 0)	return -1; 
+	}
+
+	if( Tnear >= -10000.0f ) t = Tnear;// t is the intersection distance
+	else return -1;
+
+	glm::vec3 realIntersectionPoint = multiplyMV(box.transform, glm::vec4(getPointOnRay(rt, t), 1.0));
+	glm::vec3 realOrigin = multiplyMV(box.transform, glm::vec4(0,0,0,1));
+	intersectionPoint = realIntersectionPoint;
+	//normal = glm::normalize(realIntersectionPoint - realOrigin); 
+	
+	glm::vec3 inP = rt.origin + rt.direction * Tnear;
+	if( fabs(inP.x - 0.5) < 0.0005 ) normal = glm::vec3(1.0f,.0f,.0f);
+	else if( fabs(inP.x + 0.5) < 0.0005 ) normal = glm::vec3(-1.0f,.0f,.0f);
+	if( fabs(inP.y - 0.5) < 0.0005 ) normal = glm::vec3(.0f,1.0f,.0f);
+	else if( fabs(inP.y + 0.5) < 0.0005 ) normal = glm::vec3(.0f,-1.0f,.0f);
+	if( fabs(inP.z - 0.5) < 0.0005 ) normal = glm::vec3(.0f,.0f,1.0f);
+	else if( fabs(inP.z + 0.5) < 0.0005 ) normal = glm::vec3(.0f,.0f,-1.0f);
+	  
+	
+	normal = multiplyMV( box.transform, glm::vec4(normal, .0f) );
+	normal = glm::normalize(normal);
+	
+	return glm::length(r.origin - realIntersectionPoint);
 }
 
 //LOOK: Here's an intersection test example from a sphere. Now you just need to figure out cube and, optionally, triangle.
@@ -175,9 +268,18 @@ __host__ __device__ glm::vec3 getRandomPointOnCube(staticGeom cube, float random
 
 //TODO: IMPLEMENT THIS FUNCTION
 //Generates a random point on a given sphere
-__host__ __device__ glm::vec3 getRandomPointOnSphere(staticGeom sphere, float randomSeed){
+__host__ __device__ glm::vec3 getRandomPointOnSphere(staticGeom sphere, float randomSeed)
+{
+	thrust::default_random_engine rng(hash(randomSeed));
+	thrust::uniform_real_distribution<float> u(0,1);
+	thrust::uniform_real_distribution<float> v(0,1);
 
-  return glm::vec3(0,0,0);
+	float theta = TWO_PI * u(rng);
+	float phi = acos( 2*v(rng) - 1 );
+	glm::vec3 point = glm::vec3( cos(theta) * sin(phi), sin(theta) * sin(phi), cos(phi) ) +sphere.translation;
+	glm::vec3 randPoint = multiplyMV( sphere.transform, glm::vec4(point,1.0f) );
+
+	return randPoint;
 }
 
 #endif

@@ -44,9 +44,12 @@ __host__ __device__ glm::vec3 calculateTransmissionDirection(glm::vec3 normal, g
 }
 
 //TODO (OPTIONAL): IMPLEMENT THIS FUNCTION
-__host__ __device__ glm::vec3 calculateReflectionDirection(glm::vec3 normal, glm::vec3 incident) {
-  //nothing fancy here
-  return glm::vec3(0,0,0);
+__host__ __device__ glm::vec3 calculateReflectionDirection(glm::vec3 normal, glm::vec3 incident) 
+{
+	//nothing fancy here, R=2(N.L)N+L
+	//return glm::vec3(0,0,0);
+	glm::vec3 rlect = incident - 2 * glm::dot(incident,normal) * normal ;
+	return glm::normalize(rlect);
 }
 
 //TODO (OPTIONAL): IMPLEMENT THIS FUNCTION
@@ -89,8 +92,14 @@ __host__ __device__ glm::vec3 calculateRandomDirectionInHemisphere(glm::vec3 nor
 //TODO: IMPLEMENT THIS FUNCTION
 //Now that you know how cosine weighted direction generation works, try implementing non-cosine (uniform) weighted random direction generation. 
 //This should be much easier than if you had to implement calculateRandomDirectionInHemisphere.
-__host__ __device__ glm::vec3 getRandomDirectionInSphere(float xi1, float xi2) {
-  return glm::vec3(0,0,0);
+__host__ __device__ glm::vec3 getRandomDirectionInSphere(float xi1, float xi2) 
+{//??????????what is xi1 and xi2???????????
+	//assume they are random numbers in [0,1];
+	float theta =  TWO_PI * xi1;
+	float phi = acos( 2*xi2 - 1);
+
+	return (  glm::vec3( cos(theta) * sin(phi), sin(theta) * sin(phi), cos(phi) )  );
+
 }
 
 //TODO (PARTIALLY OPTIONAL): IMPLEMENT THIS FUNCTION
